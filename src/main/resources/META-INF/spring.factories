@@ -1,0 +1,3 @@
+# Auto Configuration Import
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.github.hanpijunbuhanpi.interceptor.config.InterceptorAutoConfigure

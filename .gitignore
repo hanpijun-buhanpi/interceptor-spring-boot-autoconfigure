@@ -1,0 +1,70 @@
+# IDE / Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Compiled output
+target/
+bin/
+out/
+
+# Logs
+*.log
+*.log.*
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Cache files
+.cache/
+.caches/
+.classpath
+.project
+
+# Temporary files
+*.tmp
+
+# Build files
+build/
+dist/
+out/
+*.class
+
+# IntelliJ-specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse-specific files
+.settings/
+.classpath
+.project
+
+# Maven-specific files
+target/
+*.iml
+*.iws
+.idea/
+*.ipr
+*.iws
+
+# Visual Studio Code-specific files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Vim-specific files
+*.swp
