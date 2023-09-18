@@ -235,9 +235,10 @@ public class ApiInterceptorConfig implements WebMvcConfigurer {
     @ConditionalOnMissingBean(ApiHandlerInterceptor.class)
     public ApiHandlerInterceptor apiHandlerInterceptor() {
         return new ApiHandlerInterceptor() {
+            private final PathMatcher pathMatcher = new AntPathMatcher();
             @Override
             public PathMatcher getPathMatcher() {
-                return new AntPathMatcher();
+                return pathMatcher;
             }
         };
     }
